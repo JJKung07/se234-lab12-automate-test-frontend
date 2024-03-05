@@ -3,8 +3,9 @@ services:
   backend:
     image: dto80/se234-lab12
     ports:
-      - 8082:8080
+      - 8084:8080
   frontend:
     image: jjkung/lab12
+    source: /home/ubuntu/frontend/data/data.xlsx
     ports:
       - 8081:80
