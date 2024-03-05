@@ -8,6 +8,6 @@ services:
   frontend:
     image: jjkung/lab12
     volumes:
-      - /home/ubuntu/frontend/data:/app/data
+      - /home/ubuntu/frontend/data:/app/data.xlsx
     ports:
       - 8081:80
