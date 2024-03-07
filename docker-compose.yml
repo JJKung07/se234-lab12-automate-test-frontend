@@ -7,7 +7,7 @@ services:
     volumes:
       - tupe: bind
       - source: /home/ubuntu/Data
-      - target: /data
+      - target: /data.xlsx
   frontend:
     image: jjkung/lab12
     ports:
